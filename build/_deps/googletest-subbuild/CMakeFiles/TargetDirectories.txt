@@ -1,0 +1,3 @@
+/home/mikhail/programming/c++/projects/flashcards/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+/home/mikhail/programming/c++/projects/flashcards/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+/home/mikhail/programming/c++/projects/flashcards/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

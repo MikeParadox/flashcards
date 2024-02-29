@@ -1,0 +1,13 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+AccessModifierOffset: -4
+BreakBeforeBraces: Allman
+AllowShortBlocksOnASingleLine: Always
+AllowShortFunctionsOnASingleLine: All
+AllowShortCaseLabelsOnASingleLine: true
+PointerAlignment: Left
+MaxEmptyLinesToKeep: 10
+AlignTrailingComments: true
+FixNamespaceComments: true
+NamespaceIndentation: None
+KeepEmptyLinesAtEOF: true

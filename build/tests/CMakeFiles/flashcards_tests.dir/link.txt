@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/flashcards_tests.dir/flashcards_tests.cpp.o -o ../flashcards_tests  ../lib/libgtest_main.a ../lib/libgtest.a 
