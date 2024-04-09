@@ -69,33 +69,50 @@ include tests/CMakeFiles/flashcards_tests.dir/progress.make
 # Include the compile flags for this target's objects.
 include tests/CMakeFiles/flashcards_tests.dir/flags.make
 
-tests/CMakeFiles/flashcards_tests.dir/flashcards_tests.cpp.o: tests/CMakeFiles/flashcards_tests.dir/flags.make
-tests/CMakeFiles/flashcards_tests.dir/flashcards_tests.cpp.o: /home/mikhail/programming/c++/projects/flashcards/tests/flashcards_tests.cpp
-tests/CMakeFiles/flashcards_tests.dir/flashcards_tests.cpp.o: tests/CMakeFiles/flashcards_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikhail/programming/c++/projects/flashcards/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/flashcards_tests.dir/flashcards_tests.cpp.o"
-	cd /home/mikhail/programming/c++/projects/flashcards/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/flashcards_tests.dir/flashcards_tests.cpp.o -MF CMakeFiles/flashcards_tests.dir/flashcards_tests.cpp.o.d -o CMakeFiles/flashcards_tests.dir/flashcards_tests.cpp.o -c /home/mikhail/programming/c++/projects/flashcards/tests/flashcards_tests.cpp
+tests/CMakeFiles/flashcards_tests.dir/Flashcard_tests.cpp.o: tests/CMakeFiles/flashcards_tests.dir/flags.make
+tests/CMakeFiles/flashcards_tests.dir/Flashcard_tests.cpp.o: /home/mikhail/programming/c++/projects/flashcards/tests/Flashcard_tests.cpp
+tests/CMakeFiles/flashcards_tests.dir/Flashcard_tests.cpp.o: tests/CMakeFiles/flashcards_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikhail/programming/c++/projects/flashcards/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/flashcards_tests.dir/Flashcard_tests.cpp.o"
+	cd /home/mikhail/programming/c++/projects/flashcards/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/flashcards_tests.dir/Flashcard_tests.cpp.o -MF CMakeFiles/flashcards_tests.dir/Flashcard_tests.cpp.o.d -o CMakeFiles/flashcards_tests.dir/Flashcard_tests.cpp.o -c /home/mikhail/programming/c++/projects/flashcards/tests/Flashcard_tests.cpp
 
-tests/CMakeFiles/flashcards_tests.dir/flashcards_tests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/flashcards_tests.dir/flashcards_tests.cpp.i"
-	cd /home/mikhail/programming/c++/projects/flashcards/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail/programming/c++/projects/flashcards/tests/flashcards_tests.cpp > CMakeFiles/flashcards_tests.dir/flashcards_tests.cpp.i
+tests/CMakeFiles/flashcards_tests.dir/Flashcard_tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/flashcards_tests.dir/Flashcard_tests.cpp.i"
+	cd /home/mikhail/programming/c++/projects/flashcards/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail/programming/c++/projects/flashcards/tests/Flashcard_tests.cpp > CMakeFiles/flashcards_tests.dir/Flashcard_tests.cpp.i
 
-tests/CMakeFiles/flashcards_tests.dir/flashcards_tests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/flashcards_tests.dir/flashcards_tests.cpp.s"
-	cd /home/mikhail/programming/c++/projects/flashcards/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/programming/c++/projects/flashcards/tests/flashcards_tests.cpp -o CMakeFiles/flashcards_tests.dir/flashcards_tests.cpp.s
+tests/CMakeFiles/flashcards_tests.dir/Flashcard_tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/flashcards_tests.dir/Flashcard_tests.cpp.s"
+	cd /home/mikhail/programming/c++/projects/flashcards/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/programming/c++/projects/flashcards/tests/Flashcard_tests.cpp -o CMakeFiles/flashcards_tests.dir/Flashcard_tests.cpp.s
+
+tests/CMakeFiles/flashcards_tests.dir/Deck_tests.cpp.o: tests/CMakeFiles/flashcards_tests.dir/flags.make
+tests/CMakeFiles/flashcards_tests.dir/Deck_tests.cpp.o: /home/mikhail/programming/c++/projects/flashcards/tests/Deck_tests.cpp
+tests/CMakeFiles/flashcards_tests.dir/Deck_tests.cpp.o: tests/CMakeFiles/flashcards_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikhail/programming/c++/projects/flashcards/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/flashcards_tests.dir/Deck_tests.cpp.o"
+	cd /home/mikhail/programming/c++/projects/flashcards/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/flashcards_tests.dir/Deck_tests.cpp.o -MF CMakeFiles/flashcards_tests.dir/Deck_tests.cpp.o.d -o CMakeFiles/flashcards_tests.dir/Deck_tests.cpp.o -c /home/mikhail/programming/c++/projects/flashcards/tests/Deck_tests.cpp
+
+tests/CMakeFiles/flashcards_tests.dir/Deck_tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/flashcards_tests.dir/Deck_tests.cpp.i"
+	cd /home/mikhail/programming/c++/projects/flashcards/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail/programming/c++/projects/flashcards/tests/Deck_tests.cpp > CMakeFiles/flashcards_tests.dir/Deck_tests.cpp.i
+
+tests/CMakeFiles/flashcards_tests.dir/Deck_tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/flashcards_tests.dir/Deck_tests.cpp.s"
+	cd /home/mikhail/programming/c++/projects/flashcards/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/programming/c++/projects/flashcards/tests/Deck_tests.cpp -o CMakeFiles/flashcards_tests.dir/Deck_tests.cpp.s
 
 # Object files for target flashcards_tests
 flashcards_tests_OBJECTS = \
-"CMakeFiles/flashcards_tests.dir/flashcards_tests.cpp.o"
+"CMakeFiles/flashcards_tests.dir/Flashcard_tests.cpp.o" \
+"CMakeFiles/flashcards_tests.dir/Deck_tests.cpp.o"
 
 # External object files for target flashcards_tests
 flashcards_tests_EXTERNAL_OBJECTS =
 
-flashcards_tests: tests/CMakeFiles/flashcards_tests.dir/flashcards_tests.cpp.o
+flashcards_tests: tests/CMakeFiles/flashcards_tests.dir/Flashcard_tests.cpp.o
+flashcards_tests: tests/CMakeFiles/flashcards_tests.dir/Deck_tests.cpp.o
 flashcards_tests: tests/CMakeFiles/flashcards_tests.dir/build.make
+flashcards_tests: src/libFlashcards.a
 flashcards_tests: lib/libgtest_main.a
 flashcards_tests: lib/libgtest.a
 flashcards_tests: tests/CMakeFiles/flashcards_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mikhail/programming/c++/projects/flashcards/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../flashcards_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mikhail/programming/c++/projects/flashcards/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../flashcards_tests"
 	cd /home/mikhail/programming/c++/projects/flashcards/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/flashcards_tests.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/mikhail/programming/c++/projects/flashcards/build/tests && /usr/bin/cmake -D TEST_TARGET=flashcards_tests -D TEST_EXECUTABLE=/home/mikhail/programming/c++/projects/flashcards/build/flashcards_tests -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/home/mikhail/programming/c++/projects/flashcards/build/tests -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=flashcards_tests_TESTS -D CTEST_FILE=/home/mikhail/programming/c++/projects/flashcards/build/tests/flashcards_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P /usr/share/cmake-3.27/Modules/GoogleTestAddTests.cmake
 

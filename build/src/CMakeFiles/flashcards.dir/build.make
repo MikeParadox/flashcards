@@ -69,52 +69,36 @@ include src/CMakeFiles/flashcards.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/flashcards.dir/flags.make
 
-src/CMakeFiles/flashcards.dir/Flashcard.cpp.o: src/CMakeFiles/flashcards.dir/flags.make
-src/CMakeFiles/flashcards.dir/Flashcard.cpp.o: /home/mikhail/programming/c++/projects/flashcards/src/Flashcard.cpp
-src/CMakeFiles/flashcards.dir/Flashcard.cpp.o: src/CMakeFiles/flashcards.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikhail/programming/c++/projects/flashcards/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/flashcards.dir/Flashcard.cpp.o"
-	cd /home/mikhail/programming/c++/projects/flashcards/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/flashcards.dir/Flashcard.cpp.o -MF CMakeFiles/flashcards.dir/Flashcard.cpp.o.d -o CMakeFiles/flashcards.dir/Flashcard.cpp.o -c /home/mikhail/programming/c++/projects/flashcards/src/Flashcard.cpp
+src/CMakeFiles/flashcards.dir/main.cpp.o: src/CMakeFiles/flashcards.dir/flags.make
+src/CMakeFiles/flashcards.dir/main.cpp.o: /home/mikhail/programming/c++/projects/flashcards/src/main.cpp
+src/CMakeFiles/flashcards.dir/main.cpp.o: src/CMakeFiles/flashcards.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikhail/programming/c++/projects/flashcards/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/flashcards.dir/main.cpp.o"
+	cd /home/mikhail/programming/c++/projects/flashcards/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/flashcards.dir/main.cpp.o -MF CMakeFiles/flashcards.dir/main.cpp.o.d -o CMakeFiles/flashcards.dir/main.cpp.o -c /home/mikhail/programming/c++/projects/flashcards/src/main.cpp
 
-src/CMakeFiles/flashcards.dir/Flashcard.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/flashcards.dir/Flashcard.cpp.i"
-	cd /home/mikhail/programming/c++/projects/flashcards/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail/programming/c++/projects/flashcards/src/Flashcard.cpp > CMakeFiles/flashcards.dir/Flashcard.cpp.i
+src/CMakeFiles/flashcards.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/flashcards.dir/main.cpp.i"
+	cd /home/mikhail/programming/c++/projects/flashcards/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail/programming/c++/projects/flashcards/src/main.cpp > CMakeFiles/flashcards.dir/main.cpp.i
 
-src/CMakeFiles/flashcards.dir/Flashcard.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/flashcards.dir/Flashcard.cpp.s"
-	cd /home/mikhail/programming/c++/projects/flashcards/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/programming/c++/projects/flashcards/src/Flashcard.cpp -o CMakeFiles/flashcards.dir/Flashcard.cpp.s
-
-src/CMakeFiles/flashcards.dir/Flashcards_deck.cpp.o: src/CMakeFiles/flashcards.dir/flags.make
-src/CMakeFiles/flashcards.dir/Flashcards_deck.cpp.o: /home/mikhail/programming/c++/projects/flashcards/src/Flashcards_deck.cpp
-src/CMakeFiles/flashcards.dir/Flashcards_deck.cpp.o: src/CMakeFiles/flashcards.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mikhail/programming/c++/projects/flashcards/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/flashcards.dir/Flashcards_deck.cpp.o"
-	cd /home/mikhail/programming/c++/projects/flashcards/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/flashcards.dir/Flashcards_deck.cpp.o -MF CMakeFiles/flashcards.dir/Flashcards_deck.cpp.o.d -o CMakeFiles/flashcards.dir/Flashcards_deck.cpp.o -c /home/mikhail/programming/c++/projects/flashcards/src/Flashcards_deck.cpp
-
-src/CMakeFiles/flashcards.dir/Flashcards_deck.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/flashcards.dir/Flashcards_deck.cpp.i"
-	cd /home/mikhail/programming/c++/projects/flashcards/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail/programming/c++/projects/flashcards/src/Flashcards_deck.cpp > CMakeFiles/flashcards.dir/Flashcards_deck.cpp.i
-
-src/CMakeFiles/flashcards.dir/Flashcards_deck.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/flashcards.dir/Flashcards_deck.cpp.s"
-	cd /home/mikhail/programming/c++/projects/flashcards/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/programming/c++/projects/flashcards/src/Flashcards_deck.cpp -o CMakeFiles/flashcards.dir/Flashcards_deck.cpp.s
+src/CMakeFiles/flashcards.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/flashcards.dir/main.cpp.s"
+	cd /home/mikhail/programming/c++/projects/flashcards/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/programming/c++/projects/flashcards/src/main.cpp -o CMakeFiles/flashcards.dir/main.cpp.s
 
 # Object files for target flashcards
 flashcards_OBJECTS = \
-"CMakeFiles/flashcards.dir/Flashcard.cpp.o" \
-"CMakeFiles/flashcards.dir/Flashcards_deck.cpp.o"
+"CMakeFiles/flashcards.dir/main.cpp.o"
 
 # External object files for target flashcards
 flashcards_EXTERNAL_OBJECTS =
 
-src/libflashcards.a: src/CMakeFiles/flashcards.dir/Flashcard.cpp.o
-src/libflashcards.a: src/CMakeFiles/flashcards.dir/Flashcards_deck.cpp.o
-src/libflashcards.a: src/CMakeFiles/flashcards.dir/build.make
-src/libflashcards.a: src/CMakeFiles/flashcards.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mikhail/programming/c++/projects/flashcards/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libflashcards.a"
-	cd /home/mikhail/programming/c++/projects/flashcards/build/src && $(CMAKE_COMMAND) -P CMakeFiles/flashcards.dir/cmake_clean_target.cmake
+flashcards: src/CMakeFiles/flashcards.dir/main.cpp.o
+flashcards: src/CMakeFiles/flashcards.dir/build.make
+flashcards: src/libFlashcards.a
+flashcards: src/CMakeFiles/flashcards.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mikhail/programming/c++/projects/flashcards/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../flashcards"
 	cd /home/mikhail/programming/c++/projects/flashcards/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/flashcards.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/CMakeFiles/flashcards.dir/build: src/libflashcards.a
+src/CMakeFiles/flashcards.dir/build: flashcards
 .PHONY : src/CMakeFiles/flashcards.dir/build
 
 src/CMakeFiles/flashcards.dir/clean:

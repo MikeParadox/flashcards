@@ -172,19 +172,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named flashcards
-
-# Build rule for target.
-flashcards: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 flashcards
-.PHONY : flashcards
-
-# fast build rule for target.
-flashcards/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/flashcards.dir/build.make src/CMakeFiles/flashcards.dir/build
-.PHONY : flashcards/fast
-
-#=============================================================================
 # Target rules for targets named Flashcards
 
 # Build rule for target.
@@ -196,6 +183,19 @@ Flashcards: cmake_check_build_system
 Flashcards/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Flashcards.dir/build.make src/CMakeFiles/Flashcards.dir/build
 .PHONY : Flashcards/fast
+
+#=============================================================================
+# Target rules for targets named flashcards
+
+# Build rule for target.
+flashcards: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 flashcards
+.PHONY : flashcards
+
+# fast build rule for target.
+flashcards/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/flashcards.dir/build.make src/CMakeFiles/flashcards.dir/build
+.PHONY : flashcards/fast
 
 #=============================================================================
 # Target rules for targets named flashcards_tests

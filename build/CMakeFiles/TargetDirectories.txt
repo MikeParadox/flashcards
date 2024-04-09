@@ -5,8 +5,8 @@
 /home/mikhail/programming/c++/projects/flashcards/build/CMakeFiles/install.dir
 /home/mikhail/programming/c++/projects/flashcards/build/CMakeFiles/install/local.dir
 /home/mikhail/programming/c++/projects/flashcards/build/CMakeFiles/install/strip.dir
-/home/mikhail/programming/c++/projects/flashcards/build/src/CMakeFiles/flashcards.dir
 /home/mikhail/programming/c++/projects/flashcards/build/src/CMakeFiles/Flashcards.dir
+/home/mikhail/programming/c++/projects/flashcards/build/src/CMakeFiles/flashcards.dir
 /home/mikhail/programming/c++/projects/flashcards/build/src/CMakeFiles/test.dir
 /home/mikhail/programming/c++/projects/flashcards/build/src/CMakeFiles/edit_cache.dir
 /home/mikhail/programming/c++/projects/flashcards/build/src/CMakeFiles/rebuild_cache.dir

@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mikhail/programming/c++/projects/flashcards/src/Flashcard.cpp" "src/CMakeFiles/flashcards.dir/Flashcard.cpp.o" "gcc" "src/CMakeFiles/flashcards.dir/Flashcard.cpp.o.d"
-  "/home/mikhail/programming/c++/projects/flashcards/src/Flashcards_deck.cpp" "src/CMakeFiles/flashcards.dir/Flashcards_deck.cpp.o" "gcc" "src/CMakeFiles/flashcards.dir/Flashcards_deck.cpp.o.d"
+  "/home/mikhail/programming/c++/projects/flashcards/src/main.cpp" "src/CMakeFiles/flashcards.dir/main.cpp.o" "gcc" "src/CMakeFiles/flashcards.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -172,20 +172,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/flashcards.dir/rule:
-	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/flashcards.dir/rule
-.PHONY : src/CMakeFiles/flashcards.dir/rule
-
-# Convenience name for target.
-flashcards: src/CMakeFiles/flashcards.dir/rule
-.PHONY : flashcards
-
-# fast build rule for target.
-flashcards/fast:
-	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/flashcards.dir/build.make src/CMakeFiles/flashcards.dir/build
-.PHONY : flashcards/fast
-
-# Convenience name for target.
 src/CMakeFiles/Flashcards.dir/rule:
 	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Flashcards.dir/rule
 .PHONY : src/CMakeFiles/Flashcards.dir/rule
@@ -199,12 +185,50 @@ Flashcards/fast:
 	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Flashcards.dir/build.make src/CMakeFiles/Flashcards.dir/build
 .PHONY : Flashcards/fast
 
+# Convenience name for target.
+src/CMakeFiles/flashcards.dir/rule:
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/flashcards.dir/rule
+.PHONY : src/CMakeFiles/flashcards.dir/rule
+
+# Convenience name for target.
+flashcards: src/CMakeFiles/flashcards.dir/rule
+.PHONY : flashcards
+
+# fast build rule for target.
+flashcards/fast:
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/flashcards.dir/build.make src/CMakeFiles/flashcards.dir/build
+.PHONY : flashcards/fast
+
+Deck.o: Deck.cpp.o
+.PHONY : Deck.o
+
+# target to build an object file
+Deck.cpp.o:
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Flashcards.dir/build.make src/CMakeFiles/Flashcards.dir/Deck.cpp.o
+.PHONY : Deck.cpp.o
+
+Deck.i: Deck.cpp.i
+.PHONY : Deck.i
+
+# target to preprocess a source file
+Deck.cpp.i:
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Flashcards.dir/build.make src/CMakeFiles/Flashcards.dir/Deck.cpp.i
+.PHONY : Deck.cpp.i
+
+Deck.s: Deck.cpp.s
+.PHONY : Deck.s
+
+# target to generate assembly for a file
+Deck.cpp.s:
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Flashcards.dir/build.make src/CMakeFiles/Flashcards.dir/Deck.cpp.s
+.PHONY : Deck.cpp.s
+
 Flashcard.o: Flashcard.cpp.o
 .PHONY : Flashcard.o
 
 # target to build an object file
 Flashcard.cpp.o:
-	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/flashcards.dir/build.make src/CMakeFiles/flashcards.dir/Flashcard.cpp.o
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Flashcards.dir/build.make src/CMakeFiles/Flashcards.dir/Flashcard.cpp.o
 .PHONY : Flashcard.cpp.o
 
 Flashcard.i: Flashcard.cpp.i
@@ -212,7 +236,7 @@ Flashcard.i: Flashcard.cpp.i
 
 # target to preprocess a source file
 Flashcard.cpp.i:
-	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/flashcards.dir/build.make src/CMakeFiles/flashcards.dir/Flashcard.cpp.i
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Flashcards.dir/build.make src/CMakeFiles/Flashcards.dir/Flashcard.cpp.i
 .PHONY : Flashcard.cpp.i
 
 Flashcard.s: Flashcard.cpp.s
@@ -220,39 +244,63 @@ Flashcard.s: Flashcard.cpp.s
 
 # target to generate assembly for a file
 Flashcard.cpp.s:
-	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/flashcards.dir/build.make src/CMakeFiles/flashcards.dir/Flashcard.cpp.s
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Flashcards.dir/build.make src/CMakeFiles/Flashcards.dir/Flashcard.cpp.s
 .PHONY : Flashcard.cpp.s
 
-Flashcards_deck.o: Flashcards_deck.cpp.o
-.PHONY : Flashcards_deck.o
+Importer.o: Importer.cpp.o
+.PHONY : Importer.o
 
 # target to build an object file
-Flashcards_deck.cpp.o:
-	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/flashcards.dir/build.make src/CMakeFiles/flashcards.dir/Flashcards_deck.cpp.o
-.PHONY : Flashcards_deck.cpp.o
+Importer.cpp.o:
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Flashcards.dir/build.make src/CMakeFiles/Flashcards.dir/Importer.cpp.o
+.PHONY : Importer.cpp.o
 
-Flashcards_deck.i: Flashcards_deck.cpp.i
-.PHONY : Flashcards_deck.i
+Importer.i: Importer.cpp.i
+.PHONY : Importer.i
 
 # target to preprocess a source file
-Flashcards_deck.cpp.i:
-	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/flashcards.dir/build.make src/CMakeFiles/flashcards.dir/Flashcards_deck.cpp.i
-.PHONY : Flashcards_deck.cpp.i
+Importer.cpp.i:
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Flashcards.dir/build.make src/CMakeFiles/Flashcards.dir/Importer.cpp.i
+.PHONY : Importer.cpp.i
 
-Flashcards_deck.s: Flashcards_deck.cpp.s
-.PHONY : Flashcards_deck.s
+Importer.s: Importer.cpp.s
+.PHONY : Importer.s
 
 # target to generate assembly for a file
-Flashcards_deck.cpp.s:
-	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/flashcards.dir/build.make src/CMakeFiles/flashcards.dir/Flashcards_deck.cpp.s
-.PHONY : Flashcards_deck.cpp.s
+Importer.cpp.s:
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Flashcards.dir/build.make src/CMakeFiles/Flashcards.dir/Importer.cpp.s
+.PHONY : Importer.cpp.s
+
+Quiz.o: Quiz.cpp.o
+.PHONY : Quiz.o
+
+# target to build an object file
+Quiz.cpp.o:
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Flashcards.dir/build.make src/CMakeFiles/Flashcards.dir/Quiz.cpp.o
+.PHONY : Quiz.cpp.o
+
+Quiz.i: Quiz.cpp.i
+.PHONY : Quiz.i
+
+# target to preprocess a source file
+Quiz.cpp.i:
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Flashcards.dir/build.make src/CMakeFiles/Flashcards.dir/Quiz.cpp.i
+.PHONY : Quiz.cpp.i
+
+Quiz.s: Quiz.cpp.s
+.PHONY : Quiz.s
+
+# target to generate assembly for a file
+Quiz.cpp.s:
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Flashcards.dir/build.make src/CMakeFiles/Flashcards.dir/Quiz.cpp.s
+.PHONY : Quiz.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Flashcards.dir/build.make src/CMakeFiles/Flashcards.dir/main.cpp.o
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/flashcards.dir/build.make src/CMakeFiles/flashcards.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -260,7 +308,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Flashcards.dir/build.make src/CMakeFiles/Flashcards.dir/main.cpp.i
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/flashcards.dir/build.make src/CMakeFiles/flashcards.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -268,7 +316,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Flashcards.dir/build.make src/CMakeFiles/Flashcards.dir/main.cpp.s
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/flashcards.dir/build.make src/CMakeFiles/flashcards.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -286,12 +334,18 @@ help:
 	@echo "... test"
 	@echo "... Flashcards"
 	@echo "... flashcards"
+	@echo "... Deck.o"
+	@echo "... Deck.i"
+	@echo "... Deck.s"
 	@echo "... Flashcard.o"
 	@echo "... Flashcard.i"
 	@echo "... Flashcard.s"
-	@echo "... Flashcards_deck.o"
-	@echo "... Flashcards_deck.i"
-	@echo "... Flashcards_deck.s"
+	@echo "... Importer.o"
+	@echo "... Importer.i"
+	@echo "... Importer.s"
+	@echo "... Quiz.o"
+	@echo "... Quiz.i"
+	@echo "... Quiz.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

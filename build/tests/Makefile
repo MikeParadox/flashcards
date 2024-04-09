@@ -185,29 +185,53 @@ flashcards_tests/fast:
 	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/flashcards_tests.dir/build.make tests/CMakeFiles/flashcards_tests.dir/build
 .PHONY : flashcards_tests/fast
 
-flashcards_tests.o: flashcards_tests.cpp.o
-.PHONY : flashcards_tests.o
+Deck_tests.o: Deck_tests.cpp.o
+.PHONY : Deck_tests.o
 
 # target to build an object file
-flashcards_tests.cpp.o:
-	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/flashcards_tests.dir/build.make tests/CMakeFiles/flashcards_tests.dir/flashcards_tests.cpp.o
-.PHONY : flashcards_tests.cpp.o
+Deck_tests.cpp.o:
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/flashcards_tests.dir/build.make tests/CMakeFiles/flashcards_tests.dir/Deck_tests.cpp.o
+.PHONY : Deck_tests.cpp.o
 
-flashcards_tests.i: flashcards_tests.cpp.i
-.PHONY : flashcards_tests.i
+Deck_tests.i: Deck_tests.cpp.i
+.PHONY : Deck_tests.i
 
 # target to preprocess a source file
-flashcards_tests.cpp.i:
-	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/flashcards_tests.dir/build.make tests/CMakeFiles/flashcards_tests.dir/flashcards_tests.cpp.i
-.PHONY : flashcards_tests.cpp.i
+Deck_tests.cpp.i:
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/flashcards_tests.dir/build.make tests/CMakeFiles/flashcards_tests.dir/Deck_tests.cpp.i
+.PHONY : Deck_tests.cpp.i
 
-flashcards_tests.s: flashcards_tests.cpp.s
-.PHONY : flashcards_tests.s
+Deck_tests.s: Deck_tests.cpp.s
+.PHONY : Deck_tests.s
 
 # target to generate assembly for a file
-flashcards_tests.cpp.s:
-	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/flashcards_tests.dir/build.make tests/CMakeFiles/flashcards_tests.dir/flashcards_tests.cpp.s
-.PHONY : flashcards_tests.cpp.s
+Deck_tests.cpp.s:
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/flashcards_tests.dir/build.make tests/CMakeFiles/flashcards_tests.dir/Deck_tests.cpp.s
+.PHONY : Deck_tests.cpp.s
+
+Flashcard_tests.o: Flashcard_tests.cpp.o
+.PHONY : Flashcard_tests.o
+
+# target to build an object file
+Flashcard_tests.cpp.o:
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/flashcards_tests.dir/build.make tests/CMakeFiles/flashcards_tests.dir/Flashcard_tests.cpp.o
+.PHONY : Flashcard_tests.cpp.o
+
+Flashcard_tests.i: Flashcard_tests.cpp.i
+.PHONY : Flashcard_tests.i
+
+# target to preprocess a source file
+Flashcard_tests.cpp.i:
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/flashcards_tests.dir/build.make tests/CMakeFiles/flashcards_tests.dir/Flashcard_tests.cpp.i
+.PHONY : Flashcard_tests.cpp.i
+
+Flashcard_tests.s: Flashcard_tests.cpp.s
+.PHONY : Flashcard_tests.s
+
+# target to generate assembly for a file
+Flashcard_tests.cpp.s:
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/flashcards_tests.dir/build.make tests/CMakeFiles/flashcards_tests.dir/Flashcard_tests.cpp.s
+.PHONY : Flashcard_tests.cpp.s
 
 # Help Target
 help:
@@ -223,9 +247,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... flashcards_tests"
-	@echo "... flashcards_tests.o"
-	@echo "... flashcards_tests.i"
-	@echo "... flashcards_tests.s"
+	@echo "... Deck_tests.o"
+	@echo "... Deck_tests.i"
+	@echo "... Deck_tests.s"
+	@echo "... Flashcard_tests.o"
+	@echo "... Flashcard_tests.i"
+	@echo "... Flashcard_tests.s"
 .PHONY : help
 
 

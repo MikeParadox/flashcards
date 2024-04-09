@@ -85,8 +85,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "src/CMakeFiles/flashcards.dir/DependInfo.cmake"
   "src/CMakeFiles/Flashcards.dir/DependInfo.cmake"
+  "src/CMakeFiles/flashcards.dir/DependInfo.cmake"
   "tests/CMakeFiles/flashcards_tests.dir/DependInfo.cmake"
   "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"

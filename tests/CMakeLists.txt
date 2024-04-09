@@ -9,10 +9,12 @@ FetchContent_MakeAvailable(googletest)
 
 add_executable(
   flashcards_tests
-  flashcards_tests.cpp
+  Flashcard_tests.cpp
+  Deck_tests.cpp
 )
 target_link_libraries(
   flashcards_tests
+  Flashcards  
   GTest::gtest_main
 )
 

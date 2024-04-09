@@ -1,8 +1,14 @@
 file(REMOVE_RECURSE
-  "../Flashcards"
-  "../Flashcards.pdb"
-  "CMakeFiles/Flashcards.dir/main.cpp.o"
-  "CMakeFiles/Flashcards.dir/main.cpp.o.d"
+  "CMakeFiles/Flashcards.dir/Deck.cpp.o"
+  "CMakeFiles/Flashcards.dir/Deck.cpp.o.d"
+  "CMakeFiles/Flashcards.dir/Flashcard.cpp.o"
+  "CMakeFiles/Flashcards.dir/Flashcard.cpp.o.d"
+  "CMakeFiles/Flashcards.dir/Importer.cpp.o"
+  "CMakeFiles/Flashcards.dir/Importer.cpp.o.d"
+  "CMakeFiles/Flashcards.dir/Quiz.cpp.o"
+  "CMakeFiles/Flashcards.dir/Quiz.cpp.o.d"
+  "libFlashcards.a"
+  "libFlashcards.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

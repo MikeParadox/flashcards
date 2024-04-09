@@ -72,6 +72,6 @@
     },
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.trimAutoWhitespace": false,
-    "cmake.sourceDirectory": "/home/mikhail/programming/c++/projects/flashcards/build",
+    "cmake.sourceDirectory": "/home/mikhail/programming/c++/projects/flashcards",
     "cmake.configureOnOpen": true
 }
