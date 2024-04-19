@@ -3,7 +3,7 @@ compile:
 run:
 	./build/flashcards
 valgrind:
-	valgrind --leak-check=yes ./build/flashcards
+	valgrind --leak-check=yes -s ./build/flashcards
 test:
 	./build/flashcards_tests
 multitest:

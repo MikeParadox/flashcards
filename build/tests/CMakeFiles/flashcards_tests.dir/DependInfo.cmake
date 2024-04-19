@@ -10,10 +10,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/mikhail/programming/c++/projects/flashcards/tests/Deck_tests.cpp" "tests/CMakeFiles/flashcards_tests.dir/Deck_tests.cpp.o" "gcc" "tests/CMakeFiles/flashcards_tests.dir/Deck_tests.cpp.o.d"
   "/home/mikhail/programming/c++/projects/flashcards/tests/Flashcard_tests.cpp" "tests/CMakeFiles/flashcards_tests.dir/Flashcard_tests.cpp.o" "gcc" "tests/CMakeFiles/flashcards_tests.dir/Flashcard_tests.cpp.o.d"
+  "/home/mikhail/programming/c++/projects/flashcards/tests/Quiz_tests.cpp" "tests/CMakeFiles/flashcards_tests.dir/Quiz_tests.cpp.o" "gcc" "tests/CMakeFiles/flashcards_tests.dir/Quiz_tests.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
 set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

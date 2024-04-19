@@ -17,3 +17,4 @@ add_subdirectory(tests)
 target_compile_options(${PROJECT_NAME} PUBLIC -Og -ggdb -Werror -Wall -Wpedantic
     -time)
 
+message(${CMAKE_CXX_COMPILER})

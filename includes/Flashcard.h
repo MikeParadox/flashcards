@@ -3,7 +3,7 @@
 
 #include <string>
 
-class Deck;
+// class Deck;
 
 /*Flashcard represents a flashcard with a "concept" and
 "definition", initially both are std::string under the hood.
@@ -45,11 +45,11 @@ class Flashcard
 
 
 public:
-    // shows a "concept" side of the flashcard
-    void show_concept() const;
+    // returns a "concept" side of the flashcard
+    std::string get_concept() const;
 
-    // shows a "definition" part of the flashcard
-    void show_definition() const;
+    // returns a "definition" part of the flashcard
+    std::string get_definition() const;
 
     // shows a tip - the first line of the card
     // void show_tip(); // TODO decide what part of a definition
@@ -62,8 +62,11 @@ public:
     void edit_definition(const std::string& new_definition);
 
     // swaps a "concept" and a "definition"
-    void swap_concept_definition();
+    void swap_concept_and_definition();
 };
+
+
+std::ostream& operator<<(std::ostream& ost, const Flashcard& card);
 
 // TODO invent system for changing memorization level according
 // to test results

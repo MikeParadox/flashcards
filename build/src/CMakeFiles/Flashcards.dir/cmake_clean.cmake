@@ -3,8 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Flashcards.dir/Deck.cpp.o.d"
   "CMakeFiles/Flashcards.dir/Flashcard.cpp.o"
   "CMakeFiles/Flashcards.dir/Flashcard.cpp.o.d"
-  "CMakeFiles/Flashcards.dir/Importer.cpp.o"
-  "CMakeFiles/Flashcards.dir/Importer.cpp.o.d"
   "CMakeFiles/Flashcards.dir/Quiz.cpp.o"
   "CMakeFiles/Flashcards.dir/Quiz.cpp.o.d"
   "libFlashcards.a"

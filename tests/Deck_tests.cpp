@@ -1,5 +1,6 @@
 #include "../includes/Deck.h"
 
+#include <chrono>
 #include <gtest/gtest.h>
 #include <sstream>
 
@@ -65,5 +66,75 @@ TEST_F(DeckTest, Clear)
     ASSERT_EQ(0, d3.size());
 }
 
+TEST_F(DeckTest, CopyAssignmentOperator)
+{
+    d1 = d3;
+    ASSERT_EQ(d1.size(), d3.size());
+
+    d2 = d1;
+    ASSERT_EQ(d2.size(), d1.size());
+}
+
+TEST_F(DeckTest, MoveAssignmentOperator)
+{
+    size_t d3_size{d3.size()};
+    d1 = std::move(d3);
+    ASSERT_EQ(d1.size(), d3_size);
+
+    size_t d1_size{d1.size()};
+    d2 = std::move(d1);
+    ASSERT_EQ(d2.size(), d1_size);
+}
+
+TEST(LoadintTests, DISABLED_TimeMillionItemsCopy)
+{
+    Deck d = Deck();
+    const size_t num_cards{1'000'000};
+    for (int i{0}; i < num_cards; ++i)
+    {
+        d.add(std::to_string(i), std::to_string(i + 1));
+    }
+
+    Deck d2 = Deck();
+
+    std::chrono::steady_clock::time_point begin{
+        std::chrono::steady_clock::now()};
+
+    d2 = d;
+
+    std::chrono::steady_clock::time_point end{std::chrono::steady_clock::now()};
+
+    std::cout << "Time elapsed copy: "
+              << std::chrono::duration_cast<std::chrono::microseconds>(end -
+                                                                       begin)
+                     .count()
+              << '\n';
+}
+
+TEST(LoadintTests, DISABLED_TimeMillionItemsMove)
+{
+
+    Deck d = Deck();
+    const size_t num_cards{1'000'000};
+    for (int i{0}; i < num_cards; ++i)
+    {
+        d.add(std::to_string(i), std::to_string(i + 1));
+    }
+
+    Deck d2 = Deck();
+
+    std::chrono::steady_clock::time_point begin{
+        std::chrono::steady_clock::now()};
+
+    d2 = std::move(d);
+
+    std::chrono::steady_clock::time_point end{std::chrono::steady_clock::now()};
+
+    std::cout << "Time elapsed move: "
+              << std::chrono::duration_cast<std::chrono::microseconds>(end -
+                                                                       begin)
+                     .count()
+              << '\n';
+}
 
 

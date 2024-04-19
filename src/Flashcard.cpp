@@ -10,9 +10,9 @@ Flashcard::Flashcard(size_t id, const std::string& conception,
 }
 
 
-void Flashcard::show_concept() const { std::cout << m_concept << '\n'; }
+std::string Flashcard::get_concept() const { return m_concept; }
 
-void Flashcard::show_definition() const { std::cout << m_definition << '\n'; }
+std::string Flashcard::get_definition() const { return m_definition; }
 
 void Flashcard::edit_concept(const std::string& new_concept)
 {
@@ -24,13 +24,20 @@ void Flashcard::edit_definition(const std::string& new_definition)
     m_definition = new_definition;
 }
 
-
-void Flashcard::swap_concept_definition()
+void Flashcard::swap_concept_and_definition()
 {
     auto temp{m_concept};
     m_concept = m_definition;
     m_definition = temp;
 }
 
+
+std::ostream& operator<<(std::ostream& ost, const Flashcard& card)
+{
+    ost << "concept: " << card.get_concept() << '\n'
+        << "definition: " << card.get_definition();
+
+    return ost;
+}
 
 

@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/flashcards.dir/main.cpp.o -o ../flashcards  libFlashcards.a 
+/usr/bin/c++ CMakeFiles/flashcards.dir/main.cpp.o -o ../flashcards  libFlashcards.a 

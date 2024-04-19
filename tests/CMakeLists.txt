@@ -11,6 +11,7 @@ add_executable(
   flashcards_tests
   Flashcard_tests.cpp
   Deck_tests.cpp
+  Quiz_tests.cpp
 )
 target_link_libraries(
   flashcards_tests

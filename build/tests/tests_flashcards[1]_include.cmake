@@ -1,5 +1,0 @@
-if(EXISTS "/home/mikhail/programming/c++/projects/flashcards/build/tests/tests_flashcards[1]_tests.cmake")
-  include("/home/mikhail/programming/c++/projects/flashcards/build/tests/tests_flashcards[1]_tests.cmake")
-else()
-  add_test(tests_flashcards_NOT_BUILT tests_flashcards_NOT_BUILT)
-endif()
