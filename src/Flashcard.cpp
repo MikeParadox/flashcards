@@ -1,7 +1,6 @@
 #include "../includes/Flashcard.h"
 
 #include <iostream>
-#include <string>
 
 Flashcard::Flashcard(size_t id, const std::string& conception,
                      const std::string& definition)

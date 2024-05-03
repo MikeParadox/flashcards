@@ -28,11 +28,18 @@ private:
     const std::string path;
     static constexpr std::array<std::string, 2> extensions{"txt", "csv"};
 
-
+    // TODO implement
+    // checks if given path is valid
     bool validate_path(const std::string& path) const;
+    // TODO implement
+    // checks that given filename has correct format and extension
     bool check_file_extension(const std::string& path) const;
+    // TODO implement
+    // splits a string using delimiter
     std::optional<std::pair<std::string, std::string>>
-    parse_line(const std::string& line) const;
+    parse_line(const std::string& line, char delimiter = '|') const;
+    // trims leading and trailing whitespaces of given string
+    std::string trim(std::string&& str) const;
 };
 
 

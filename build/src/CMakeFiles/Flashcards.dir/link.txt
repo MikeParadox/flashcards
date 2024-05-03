@@ -1,2 +1,2 @@
-/usr/bin/ar qc libFlashcards.a CMakeFiles/Flashcards.dir/Deck.cpp.o CMakeFiles/Flashcards.dir/Flashcard.cpp.o CMakeFiles/Flashcards.dir/Quiz.cpp.o
+/usr/bin/ar qc libFlashcards.a CMakeFiles/Flashcards.dir/Deck.cpp.o CMakeFiles/Flashcards.dir/Flashcard.cpp.o CMakeFiles/Flashcards.dir/Importer.cpp.o CMakeFiles/Flashcards.dir/Quiz.cpp.o
 /usr/bin/ranlib libFlashcards.a

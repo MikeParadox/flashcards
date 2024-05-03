@@ -1,6 +1,7 @@
-add_library(Flashcards ../includes/Deck.h Deck.cpp
+add_library(Flashcards 
+../includes/Deck.h Deck.cpp
 ../includes/Flashcard.h Flashcard.cpp 
-# ../includes/Importer.h Importer.cpp
+../includes/Importer.h Importer.cpp
 ../includes/Quiz.h Quiz.cpp)
     
 add_executable(${PROJECT_NAME} main.cpp)

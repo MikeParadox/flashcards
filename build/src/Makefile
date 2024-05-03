@@ -247,6 +247,30 @@ Flashcard.cpp.s:
 	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Flashcards.dir/build.make src/CMakeFiles/Flashcards.dir/Flashcard.cpp.s
 .PHONY : Flashcard.cpp.s
 
+Importer.o: Importer.cpp.o
+.PHONY : Importer.o
+
+# target to build an object file
+Importer.cpp.o:
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Flashcards.dir/build.make src/CMakeFiles/Flashcards.dir/Importer.cpp.o
+.PHONY : Importer.cpp.o
+
+Importer.i: Importer.cpp.i
+.PHONY : Importer.i
+
+# target to preprocess a source file
+Importer.cpp.i:
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Flashcards.dir/build.make src/CMakeFiles/Flashcards.dir/Importer.cpp.i
+.PHONY : Importer.cpp.i
+
+Importer.s: Importer.cpp.s
+.PHONY : Importer.s
+
+# target to generate assembly for a file
+Importer.cpp.s:
+	cd /home/mikhail/programming/c++/projects/flashcards/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Flashcards.dir/build.make src/CMakeFiles/Flashcards.dir/Importer.cpp.s
+.PHONY : Importer.cpp.s
+
 Quiz.o: Quiz.cpp.o
 .PHONY : Quiz.o
 
@@ -316,6 +340,9 @@ help:
 	@echo "... Flashcard.o"
 	@echo "... Flashcard.i"
 	@echo "... Flashcard.s"
+	@echo "... Importer.o"
+	@echo "... Importer.i"
+	@echo "... Importer.s"
 	@echo "... Quiz.o"
 	@echo "... Quiz.i"
 	@echo "... Quiz.s"

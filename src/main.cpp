@@ -10,7 +10,9 @@ int main()
 {
     Deck deck;
     deck.add("C++", "general purpose programming language");
-    deck.show_flashcard(1);
+    deck.add("C#", "object-oriented programming language");
+    deck.add("PascalABC", "teaching programming language");
+    deck.print_deck();
     std::cout << deck.size() << '\n';
 
     return 0;

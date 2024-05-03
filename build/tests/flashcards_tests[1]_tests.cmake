@@ -1,5 +1,7 @@
 add_test([=[DeckTest.SizeUponCreation]=]  [==[/home/mikhail/programming/c++/projects/flashcards/build/flashcards_tests]==] [==[--gtest_filter=DeckTest.SizeUponCreation]==] --gtest_also_run_disabled_tests)
 set_tests_properties([=[DeckTest.SizeUponCreation]=]  PROPERTIES WORKING_DIRECTORY [==[/home/mikhail/programming/c++/projects/flashcards/build/tests]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[DeckTest.Add]=]  [==[/home/mikhail/programming/c++/projects/flashcards/build/flashcards_tests]==] [==[--gtest_filter=DeckTest.Add]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DeckTest.Add]=]  PROPERTIES WORKING_DIRECTORY [==[/home/mikhail/programming/c++/projects/flashcards/build/tests]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
 add_test([=[DeckTest.SizeAfterAdd]=]  [==[/home/mikhail/programming/c++/projects/flashcards/build/flashcards_tests]==] [==[--gtest_filter=DeckTest.SizeAfterAdd]==] --gtest_also_run_disabled_tests)
 set_tests_properties([=[DeckTest.SizeAfterAdd]=]  PROPERTIES WORKING_DIRECTORY [==[/home/mikhail/programming/c++/projects/flashcards/build/tests]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
 add_test([=[DeckTest.Empty]=]  [==[/home/mikhail/programming/c++/projects/flashcards/build/flashcards_tests]==] [==[--gtest_filter=DeckTest.Empty]==] --gtest_also_run_disabled_tests)
@@ -18,4 +20,4 @@ set_tests_properties([=[LoadintTests.TimeMillionItemsCopy]=]  PROPERTIES WORKING
 add_test([=[LoadintTests.TimeMillionItemsMove]=]  [==[/home/mikhail/programming/c++/projects/flashcards/build/flashcards_tests]==] [==[--gtest_filter=LoadintTests.DISABLED_TimeMillionItemsMove]==] --gtest_also_run_disabled_tests)
 set_tests_properties([=[LoadintTests.TimeMillionItemsMove]=]  PROPERTIES DISABLED TRUE)
 set_tests_properties([=[LoadintTests.TimeMillionItemsMove]=]  PROPERTIES WORKING_DIRECTORY [==[/home/mikhail/programming/c++/projects/flashcards/build/tests]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set(  flashcards_tests_TESTS DeckTest.SizeUponCreation DeckTest.SizeAfterAdd DeckTest.Empty DeckTest.Erase DeckTest.Clear DeckTest.CopyAssignmentOperator DeckTest.MoveAssignmentOperator LoadintTests.TimeMillionItemsCopy LoadintTests.TimeMillionItemsMove)
+set(  flashcards_tests_TESTS DeckTest.SizeUponCreation DeckTest.Add DeckTest.SizeAfterAdd DeckTest.Empty DeckTest.Erase DeckTest.Clear DeckTest.CopyAssignmentOperator DeckTest.MoveAssignmentOperator LoadintTests.TimeMillionItemsCopy LoadintTests.TimeMillionItemsMove)

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240422-2051-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.28.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="mikhail-Raider-GE78HX-13VH"
+	OSRelease="6.8.0-28-generic"
+	OSVersion="#28-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 16 18:28:16 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="183"
+	ProcessorCacheSize="36864"
+	NumberOfLogicalCPU="32"
+	NumberOfPhysicalCPU="24"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="63996"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="5194.68"
+	>
+	<Testing>
+		<StartDateTime>Apr 23 00:34 MSK</StartDateTime>
+		<StartTestTime>1713821648</StartTestTime>
+		<TestList/>
+		<EndDateTime>Apr 23 00:34 MSK</EndDateTime>
+		<EndTestTime>1713821648</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

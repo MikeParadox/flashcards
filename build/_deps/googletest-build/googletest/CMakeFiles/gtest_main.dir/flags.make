@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -isystem /home/mikhail/programming/c++/projects/flashcards/build/_deps/googletest-src/googletest/include -isystem /home/mikhail/programming/c++/projects/flashcards/build/_deps/googletest-src/googletest
 
-CXX_FLAGS = -std=c++20 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+CXX_FLAGS = -g -std=c++20 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
 

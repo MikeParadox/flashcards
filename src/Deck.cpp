@@ -41,16 +41,21 @@ void Deck::erase(int id)
     }
 }
 
-void Deck::show_flashcard(const std::string& card_concept) const
+std::optional<Flashcard> Deck::get(const std::string& card_concept) const
 {
     if (m_concepts_and_ids.contains(card_concept))
-        show_flashcard(m_concepts_and_ids.find(card_concept)->second);
+        return std::optional<Flashcard>{
+            m_deck.find(m_concepts_and_ids.find(card_concept)->second)->second};
+
+    return std::nullopt;
 }
 
-void Deck::show_flashcard(size_t card_id) const
+std::optional<Flashcard> Deck::get(size_t card_id) const
 {
     if (m_deck.contains(card_id))
-        std::cout << m_deck.find(card_id)->second << '\n';
+        return std::optional<Flashcard>{m_deck.find(card_id)->second};
+
+    return std::nullopt;
 }
 
 size_t Deck::size() const { return m_deck.size(); }
@@ -65,6 +70,12 @@ void Deck::clear()
     m_id_shuffled.clear();
 }
 
+void Deck::print_deck() const
+{
+    size_t card_num{1};
+    for (auto it{m_deck.begin()}; it != m_deck.end(); ++it, ++card_num)
+        std::cout << "\nCard: " << card_num << '\n' << it->second << '\n';
+}
 
 enum class Deck::Sort_order
 {

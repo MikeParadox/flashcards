@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/mikhail/programming/c++/projects/flashcards/src/Deck.cpp" "src/CMakeFiles/Flashcards.dir/Deck.cpp.o" "gcc" "src/CMakeFiles/Flashcards.dir/Deck.cpp.o.d"
   "/home/mikhail/programming/c++/projects/flashcards/src/Flashcard.cpp" "src/CMakeFiles/Flashcards.dir/Flashcard.cpp.o" "gcc" "src/CMakeFiles/Flashcards.dir/Flashcard.cpp.o.d"
+  "/home/mikhail/programming/c++/projects/flashcards/src/Importer.cpp" "src/CMakeFiles/Flashcards.dir/Importer.cpp.o" "gcc" "src/CMakeFiles/Flashcards.dir/Importer.cpp.o.d"
   "/home/mikhail/programming/c++/projects/flashcards/src/Quiz.cpp" "src/CMakeFiles/Flashcards.dir/Quiz.cpp.o" "gcc" "src/CMakeFiles/Flashcards.dir/Quiz.cpp.o.d"
   )
 

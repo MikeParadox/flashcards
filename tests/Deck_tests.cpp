@@ -1,4 +1,5 @@
 #include "../includes/Deck.h"
+#include "../includes/Flashcard.h"
 
 #include <chrono>
 #include <gtest/gtest.h>
@@ -22,6 +23,14 @@ protected:
 };
 
 TEST_F(DeckTest, SizeUponCreation) { ASSERT_EQ(0, d1.size()); }
+
+TEST_F(DeckTest, Add)
+{
+    d1.add("1", "one");
+    ASSERT_TRUE(d1.get(1)->get_concept() == "1");
+    ASSERT_TRUE(d1.get(1)->get_definition() == "one");
+}
+
 
 TEST_F(DeckTest, SizeAfterAdd)
 {
@@ -113,7 +122,6 @@ TEST(LoadintTests, DISABLED_TimeMillionItemsCopy)
 
 TEST(LoadintTests, DISABLED_TimeMillionItemsMove)
 {
-
     Deck d = Deck();
     const size_t num_cards{1'000'000};
     for (int i{0}; i < num_cards; ++i)

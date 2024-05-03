@@ -3,6 +3,8 @@
 
 src/CMakeFiles/flashcards.dir/main.cpp.o: /home/mikhail/programming/c++/projects/flashcards/src/main.cpp \
   /home/mikhail/programming/c++/projects/flashcards/includes/Flashcard.h \
+  /home/mikhail/programming/c++/projects/flashcards/includes/Flashcard.h \
+  /home/mikhail/programming/c++/projects/flashcards/includes/Quiz.h \
   /home/mikhail/programming/c++/projects/flashcards/includes/Deck.h \
   /home/mikhail/programming/c++/projects/flashcards/includes/Flashcard.h \
   /usr/include/alloca.h \
@@ -112,6 +114,7 @@ src/CMakeFiles/flashcards.dir/main.cpp.o: /home/mikhail/programming/c++/projects
   /usr/include/c++/13/map \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numbers \
+  /usr/include/c++/13/optional \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/set \
@@ -283,8 +286,6 @@ src/CMakeFiles/flashcards.dir/main.cpp.o: /home/mikhail/programming/c++/projects
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
 /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
@@ -359,8 +360,6 @@ src/CMakeFiles/flashcards.dir/main.cpp.o: /home/mikhail/programming/c++/projects
 
 /usr/include/c++/13/stdexcept:
 
-/usr/include/c++/13/bits/stl_algobase.h:
-
 /usr/include/c++/13/bits/node_handle.h:
 
 /usr/include/c++/13/ios:
@@ -395,13 +394,11 @@ src/CMakeFiles/flashcards.dir/main.cpp.o: /home/mikhail/programming/c++/projects
 
 /usr/include/c++/13/bits/ios_base.h:
 
-/usr/include/c++/13/bits/ranges_base.h:
+/usr/include/c++/13/bits/ostream_insert.h:
 
-/usr/include/c++/13/istream:
+/home/mikhail/programming/c++/projects/flashcards/src/main.cpp:
 
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/c++/13/bits/basic_string.h:
+/usr/include/c++/13/bits/hashtable.h:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
@@ -417,17 +414,11 @@ src/CMakeFiles/flashcards.dir/main.cpp.o: /home/mikhail/programming/c++/projects
 
 /usr/include/c++/13/bits/stringfwd.h:
 
+/usr/include/errno.h:
+
+/usr/include/c++/13/bits/functional_hash.h:
+
 /usr/include/alloca.h:
-
-/usr/include/c++/13/bits/basic_string.tcc:
-
-/usr/include/c++/13/bit:
-
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/include/c++/13/type_traits:
-
-/usr/include/c++/13/bits/enable_special_members.h:
 
 /usr/include/c++/13/cwctype:
 
@@ -449,11 +440,33 @@ src/CMakeFiles/flashcards.dir/main.cpp.o: /home/mikhail/programming/c++/projects
 
 /usr/include/c++/13/string_view:
 
+/usr/include/c++/13/bits/enable_special_members.h:
+
+/usr/include/c++/13/bits/basic_string.tcc:
+
+/usr/include/c++/13/bit:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/home/mikhail/programming/c++/projects/flashcards/includes/Quiz.h:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/c++/13/type_traits:
+
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 /usr/include/c++/13/bits/char_traits.h:
 
 /usr/include/c++/13/bits/hashtable_policy.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/c++/13/streambuf:
+
+/usr/include/c++/13/bits/exception.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
 
@@ -467,25 +480,19 @@ src/CMakeFiles/flashcards.dir/main.cpp.o: /home/mikhail/programming/c++/projects
 
 /usr/include/c++/13/bits/stl_tree.h:
 
-/home/mikhail/programming/c++/projects/flashcards/src/main.cpp:
+/usr/include/c++/13/bits/ranges_base.h:
 
-/usr/include/c++/13/bits/ostream_insert.h:
+/usr/include/c++/13/istream:
 
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/c++/13/bits/exception.h:
-
-/usr/include/c++/13/streambuf:
+/usr/include/c++/13/bits/basic_string.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
 
 /usr/include/c++/13/bits/ptr_traits.h:
-
-/usr/include/c++/13/bits/hashtable.h:
 
 /usr/include/c++/13/bits/localefwd.h:
 
@@ -509,12 +516,6 @@ src/CMakeFiles/flashcards.dir/main.cpp.o: /home/mikhail/programming/c++/projects
 
 /usr/include/c++/13/bits/cxxabi_forced.h:
 
-/usr/include/c++/13/bits/stl_multimap.h:
-
-/usr/include/c++/13/bits/istream.tcc:
-
-/usr/include/c++/13/bits/exception_ptr.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
 /usr/include/c++/13/cerrno:
@@ -522,6 +523,8 @@ src/CMakeFiles/flashcards.dir/main.cpp.o: /home/mikhail/programming/c++/projects
 /usr/include/c++/13/bits/concept_check.h:
 
 /usr/include/c++/13/bits/alloc_traits.h:
+
+/usr/include/c++/13/bits/stl_algobase.h:
 
 /usr/include/c++/13/bits/allocator.h:
 
@@ -564,6 +567,20 @@ src/CMakeFiles/flashcards.dir/main.cpp.o: /home/mikhail/programming/c++/projects
 /usr/include/c++/13/bits/unordered_map.h:
 
 /usr/include/c++/13/bits/stl_vector.h:
+
+/usr/include/endian.h:
+
+/usr/include/c++/13/bits/max_size_type.h:
+
+/usr/include/c++/13/bits/streambuf.tcc:
+
+/usr/include/c++/13/bits/stl_multimap.h:
+
+/usr/include/c++/13/bits/istream.tcc:
+
+/usr/include/c++/13/bits/exception_ptr.h:
+
+/usr/include/c++/13/optional:
 
 /usr/include/c++/13/bits/std_abs.h:
 
@@ -623,10 +640,6 @@ src/CMakeFiles/flashcards.dir/main.cpp.o: /home/mikhail/programming/c++/projects
 
 /usr/include/c++/13/tuple:
 
-/usr/include/c++/13/bits/functional_hash.h:
-
-/usr/include/errno.h:
-
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
 /usr/include/locale.h:
@@ -678,9 +691,3 @@ src/CMakeFiles/flashcards.dir/main.cpp.o: /home/mikhail/programming/c++/projects
 /usr/include/c++/13/unordered_map:
 
 /usr/include/c++/13/utility:
-
-/usr/include/c++/13/bits/max_size_type.h:
-
-/usr/include/c++/13/bits/streambuf.tcc:
-
-/usr/include/endian.h:

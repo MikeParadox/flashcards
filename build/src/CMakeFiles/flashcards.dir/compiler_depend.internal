@@ -4,6 +4,8 @@
 src/CMakeFiles/flashcards.dir/main.cpp.o
  /home/mikhail/programming/c++/projects/flashcards/src/main.cpp
  /home/mikhail/programming/c++/projects/flashcards/includes/Flashcard.h
+ /home/mikhail/programming/c++/projects/flashcards/includes/Flashcard.h
+ /home/mikhail/programming/c++/projects/flashcards/includes/Quiz.h
  /home/mikhail/programming/c++/projects/flashcards/includes/Deck.h
  /home/mikhail/programming/c++/projects/flashcards/includes/Flashcard.h
  /usr/include/alloca.h
@@ -113,6 +115,7 @@ src/CMakeFiles/flashcards.dir/main.cpp.o
  /usr/include/c++/13/map
  /usr/include/c++/13/new
  /usr/include/c++/13/numbers
+ /usr/include/c++/13/optional
  /usr/include/c++/13/ostream
  /usr/include/c++/13/pstl/pstl_config.h
  /usr/include/c++/13/set

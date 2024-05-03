@@ -14,7 +14,13 @@ enable_testing()
 add_subdirectory(src)
 add_subdirectory(tests)
 
+
+
 target_compile_options(${PROJECT_NAME} PUBLIC -Og -ggdb -Werror -Wall -Wpedantic
     -time)
 
+set_property(TARGET flashcards PROPERTY COMPILE_WARNING_AS_ERROR)
+
+# set(CMAKE_COMPILE_WARNING_AS_ERROR ON)
+    
 message(${CMAKE_CXX_COMPILER})

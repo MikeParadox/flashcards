@@ -28,13 +28,9 @@ class Flashcard
     void change_memorization_level(bool result)
     {
         if (result)
-        {
             ++m_memorization_level;
-        }
         else
-        {
             m_memorization_level -= 3;
-        }
 
         if (m_memorization_level < m_min_mem_level)
             m_memorization_level = m_min_mem_level;
@@ -52,8 +48,8 @@ public:
     std::string get_definition() const;
 
     // shows a tip - the first line of the card
-    // void show_tip(); // TODO decide what part of a definition
-    // is a "tip"
+    // void show_tip();
+    // TODO decide what part of a definition is a "tip"
 
     // change a "concept" to "new_concept"
     void edit_concept(const std::string& new_concept);
